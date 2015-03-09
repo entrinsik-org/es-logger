@@ -1,0 +1,38 @@
+{
+  "name": "ent-es-logger",
+  "version": "1.0.0",
+  "description": "A Hapi --> Elasticsearch logger conduit",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test --reporter progress --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/entrinsik-org/es-logger"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^2.1.1",
+    "gulp": "^3.8.11",
+    "gulp-bump": "^0.2.2",
+    "gulp-filter": "^2.0.2",
+    "gulp-git": "^1.1.0",
+    "gulp-istanbul": "^0.6.0",
+    "gulp-jshint": "^1.9.2",
+    "gulp-mocha": "^2.0.0",
+    "gulp-tag-version": "^1.2.1",
+    "jshint-stylish": "^1.0.1",
+    "mocha": "^2.2.1",
+    "sinon": "^1.13.0",
+    "sinon-chai": "^2.7.0"
+  },
+  "dependencies": {
+    "hoek": "^2.11.1",
+    "json-stringify-safe": "^5.0.0",
+    "lodash": "^3.5.0"
+  }
+}
