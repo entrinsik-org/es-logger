@@ -30,7 +30,7 @@
     "sinon": "^1.13.0",
     "sinon-chai": "^2.7.0"
   },
-  "dependencies": {
+  "dependencies": { 
     "hoek": "^2.11.1",
     "json-stringify-safe": "^5.0.0",
     "lodash": "^3.5.0"
